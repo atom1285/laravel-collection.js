@@ -14,4 +14,9 @@ export default class Collection {
 
         return Object.values(this.items);
     }
+
+    public keys(): any[]
+    {
+        return Object.keys(this.items);
+    }
 }
